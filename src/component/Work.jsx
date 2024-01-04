@@ -6,7 +6,7 @@ import img3 from "../assets/portfolio-img3.png";
 const Work = () => {
     return (
       <section
-        className="py-8 lg:py-24 lg:h-screen flex items-center justify-center"
+        className="py-8 lg:py-24 lg:h-auto  flex items-center justify-center"
         id="work"
       >
         <div className="container mx-auto">
@@ -14,7 +14,7 @@ const Work = () => {
             <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
               {/* text */}
               <div>
-                <h2 className="h2 lg:text-6xl leading-tight text-accent">
+                <h2 className="h2 text lg:text-6xl leading-tight text-accent">
                   My Latest <br />
                   Work.
                 </h2>
@@ -25,69 +25,54 @@ const Work = () => {
                 {/* <button className="btn btn-sm">View all projects</button> */}
               </div>
               {/* image */}
-              <div className="group relative overflow-hidden border-2 border-white/40 rounded-xl">
-                {/* overlay */}
-                <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
-                {/* img */}
-                <img
-                  className="group-hover:scale-125 transition-all duration-500"
-                  src={img1}
-                  alt=""
-                />
-                {/* pretitle */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 duration-500 z-50">
-                  <span className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary">
-                    UI/UX Design
-                  </span>
+              <div className="">
+                <p className="text-white mb-5 text-2xl ">Spice Garden</p>
+                <div className="w-auto h-96 overflow-hidden mx-auto mb-5 border-2 border-white/40 rounded-xl">
+                  <img
+                    className="w-full h-full object-cover object-top transition-all duration-[3000ms] ease-in-out hover:object-bottom "
+                    src={img1}
+                    alt="Your Image"
+                  />
                 </div>
-                {/* title */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-14 duration-700 z-50">
-                  <span className="text-3xl text-white">Project Title</span>
+                <div className="text-white mb-3 flex gap-12">
+                  <a href=" https://chef-recipe-hunter-21755.web.app" target="_blank">Live </a>
+                  <a href=" https://github.com/TarekAziz01/chef-recipe-client" target="_blank">Client Side</a>
+                  <a href=" https://github.com/TarekAziz01/chef-recipe-server" target="_blank">Server side</a>
                 </div>
               </div>
             </div>
             <div className="flex-1 flex flex-col gap-y-10">
               {/* image */}
-              <div className="group relative overflow-hidden border-2 border-white/40 rounded-xl">
-                {/* overlay */}
-                <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
-                {/* img */}
-                <img
-                  className="group-hover:scale-125 transition-all duration-500"
-                  src={img2}
-                  alt=""
-                />
-                {/* pretitle */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 duration-500 z-50">
-                  <span className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary">
-                    UI/UX Design
-                  </span>
+              <div className="">
+                <p className="text-white mb-5 text-2xl ">Sports Learn</p>
+                <div className="w-auto h-96 overflow-hidden mx-auto mb-5 border-2 border-white/40 rounded-xl">
+                  <img
+                    className="w-full h-full object-cover object-top transition-all duration-[3000ms] ease-in-out hover:object-bottom "
+                    src={img2}
+                    alt="Your Image"
+                  />
                 </div>
-                {/* title */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-14 duration-700 z-50">
-                  <span className="text-3xl text-white">Project Title</span>
+                <div className="text-white mb-3 flex gap-12">
+                  <a href=" https://summer-camp-96439.web.app" target="_blank">Live </a>
+                  <a href=" https://github.com/TarekAziz01/summer-camp-server" target="_blank">Client Side</a>
+                  <a href=" https://github.com/TarekAziz01/summer-camp-client" target="_blank">Server side</a>
                 </div>
               </div>
 
               {/* image */}
-              <div className="group relative overflow-hidden border-2 border-white/40 rounded-xl">
-                {/* overlay */}
-                <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
-                {/* img */}
-                <img
-                  className="group-hover:scale-125 transition-all duration-500"
-                  src={img3}
-                  alt=""
-                />
-                {/* pretitle */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 duration-500 z-50">
-                  <span className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary">
-                    UI/UX Design
-                  </span>
+              <div className="">
+                <p className="text-white mb-5 text-2xl ">Turbo Troop</p>
+                <div className="w-auto h-96 overflow-hidden mx-auto mb-5 border-2 border-white/40 rounded-xl">
+                  <img
+                    className="w-full h-full object-cover object-top transition-all duration-[3000ms] ease-in-out hover:object-bottom "
+                    src={img3}
+                    alt="Your Image"
+                  />
                 </div>
-                {/* title */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-14 duration-700 z-50">
-                  <span className="text-3xl text-white">Project Title</span>
+                <div className="text-white mb-3 flex gap-12">
+                  <a href=" https://turbo-troop.web.app" target="_blank">Live </a>
+                  <a href=" https://github.com/TarekAziz01/turbo-troop-client" target="_blank">Client Side</a>
+                  <a href=" https://github.com/TarekAziz01/turbo-troop-server" target="_blank">Server side</a>
                 </div>
               </div>
             </div>

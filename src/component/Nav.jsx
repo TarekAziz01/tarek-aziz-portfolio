@@ -1,5 +1,9 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
+import {
+  // BsClipboardData,
+  BsBriefcase,
+  BsChatSquareText
+} from "react-icons/bs";
 
 import { Link } from "react-scroll";
 
@@ -27,7 +31,7 @@ const Nav = () => {
             >
               <BiUser />
             </Link>
-            <Link
+            {/* <Link
               to="services"
               activeClass="active"
               smooth={true}
@@ -35,7 +39,7 @@ const Nav = () => {
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             >
               <BsClipboardData />
-            </Link>
+            </Link> */}
             <Link
               to="work"
               activeClass="active"
