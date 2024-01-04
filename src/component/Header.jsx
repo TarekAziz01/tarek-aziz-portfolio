@@ -6,11 +6,11 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* <a href=" # "><img src={Logo} alt="" /></a> */}
             <h2 className="">
-              <span className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3]; text-5xl">
+              <span className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-secondary hover:from-[#FF56F6] hover:to-[#42A6E3]; text-5xl">
                 Tarek
               </span>
               <br />
-              <span className="text-5xl text-white tracking-widest font-semibold">
+              <span className="text-5xl text-white tracking-widest font-secondary font-semibold">
                 Aziz
               </span>
             </h2>
