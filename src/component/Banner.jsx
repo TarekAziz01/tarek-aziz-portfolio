@@ -31,10 +31,12 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </div>
-            <p className="text-white mb-8 max-w-lg mx-auto lg:mx-0">
-              I create web page with UI / UX user interface,I have years of
-              experience and many client are happy with the projects carried
-              out.
+            <p className="text-white text-lg lg:text-xl mb-8 max-w-lg mx-auto lg:mx-0">
+              I&apos;m a skilled front-end developer specializing in React,
+              HTML, CSS, Tailwind, Bootstrap, and Firebase. I&apos;m passionate
+              about crafting visually appealing and responsive user interfaces.
+              Let&apos;s collaborate to create seamless and modern digital
+              experiences!
             </p>
             <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               {/* <button className="btn btn-lg">
