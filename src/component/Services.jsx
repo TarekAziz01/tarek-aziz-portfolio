@@ -14,12 +14,6 @@ const services = [
     link: "Learn more",
   },
   {
-    name: "Digital Marketing",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ab praesentium ad nisi.",
-    link: "Learn more",
-  },
-  {
     name: "Product Branding",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ab praesentium ad nisi.",
@@ -43,7 +37,7 @@ const Services = () => {
             <h3 className="text-white font-secondary font-semibold text-[26px] leading-[46px] max-w-[455px] mb-16">
               I am a Front-end Developer with one years of experience.
             </h3>
-            <button className="btn h-[48px] px-6 text-lg rounded-full font-primary text-white">
+            <button className="btn h-[48px] px-6 text-lg rounded-full font-secondary text-white">
               See my Work
             </button>
           </div>
