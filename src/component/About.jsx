@@ -16,7 +16,7 @@ const About = () => {
           {/* img */}
           <div className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"></div>
           <div className="flex-1">
-            <h2 className="font-primary text-[32px] mb-6 tracking-[10%] uppercase text-accent">
+            <h2 className="font-primary text-3xl lg:text-5xl mb-6 tracking-[10%] uppercase text-accent">
               About me.
             </h2>
             <h3 className="text-white font-primary font-semibold text-[26px] mb-6 leading-[46px]">

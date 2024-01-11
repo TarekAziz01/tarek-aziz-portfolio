@@ -11,13 +11,11 @@ const Contact = () => {
             {/* text */}
             <div className="flex-1 flex justify-start items-center">
               <div>
-                <h4 className="text-4xl uppercase text-accent font-medium mb-2 tracking-wide">
+                <h4 className="font-primary text-3xl lg:text-5xl mb-6 tracking-[10%] uppercase text-accent ">
                   Get in touch
                 </h4>
-                <h2 className="text-white text-[45px] lg:text-[90px] leading-none mb-12">
-                  Let's work
-                  <br />
-                  together!
+                <h2 className="text-white font-primary text-3xl lg:text-4xl leading-none mb-12">
+                  Let's work together!
                 </h2>
               </div>
             </div>

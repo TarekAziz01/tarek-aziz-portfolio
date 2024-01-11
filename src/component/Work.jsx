@@ -14,7 +14,7 @@ const Work = () => {
             <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
               {/* text */}
               <div>
-                <h2 className="h2 text lg:text-4xl leading-tight text-accent">
+                <h2 className="font-primary text-3xl lg:text-5xl mb-6 tracking-[10%] uppercase text-accent">
                   My Latest <br />
                   Work.
                 </h2>
