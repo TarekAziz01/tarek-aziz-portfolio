@@ -14,11 +14,11 @@ const Work = () => {
             <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
               {/* text */}
               <div>
-                <h2 className="h2 text lg:text-6xl leading-tight text-accent">
+                <h2 className="h2 text lg:text-4xl leading-tight text-accent">
                   My Latest <br />
                   Work.
                 </h2>
-                <p className="text-white max-w-sm mb-12 lg:text-2xl">
+                <p className="text-white max-w-sm mb-12 text-lg lg:text-xl">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
                   perspiciatis beatae minima minus sed cumque iusto praesentium.
                 </p>
@@ -35,9 +35,24 @@ const Work = () => {
                   />
                 </div>
                 <div className="text-white mb-3 flex gap-12">
-                  <a href=" https://chef-recipe-hunter-21755.web.app" target="_blank">Live </a>
-                  <a href=" https://github.com/TarekAziz01/chef-recipe-client" target="_blank">Client Side</a>
-                  <a href=" https://github.com/TarekAziz01/chef-recipe-server" target="_blank">Server side</a>
+                  <a
+                    href=" https://chef-recipe-hunter-21755.web.app"
+                    target="_blank"
+                  >
+                    Live{" "}
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/chef-recipe-client"
+                    target="_blank"
+                  >
+                    Client Side
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/chef-recipe-server"
+                    target="_blank"
+                  >
+                    Server side
+                  </a>
                 </div>
               </div>
             </div>
@@ -53,9 +68,21 @@ const Work = () => {
                   />
                 </div>
                 <div className="text-white mb-3 flex gap-12">
-                  <a href=" https://summer-camp-96439.web.app" target="_blank">Live </a>
-                  <a href=" https://github.com/TarekAziz01/summer-camp-server" target="_blank">Client Side</a>
-                  <a href=" https://github.com/TarekAziz01/summer-camp-client" target="_blank">Server side</a>
+                  <a href=" https://summer-camp-96439.web.app" target="_blank">
+                    Live{" "}
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/summer-camp-server"
+                    target="_blank"
+                  >
+                    Client Side
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/summer-camp-client"
+                    target="_blank"
+                  >
+                    Server side
+                  </a>
                 </div>
               </div>
 
@@ -70,9 +97,21 @@ const Work = () => {
                   />
                 </div>
                 <div className="text-white mb-3 flex gap-12">
-                  <a href=" https://turbo-troop.web.app" target="_blank">Live </a>
-                  <a href=" https://github.com/TarekAziz01/turbo-troop-client" target="_blank">Client Side</a>
-                  <a href=" https://github.com/TarekAziz01/turbo-troop-server" target="_blank">Server side</a>
+                  <a href=" https://turbo-troop.web.app" target="_blank">
+                    Live{" "}
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/turbo-troop-client"
+                    target="_blank"
+                  >
+                    Client Side
+                  </a>
+                  <a
+                    href=" https://github.com/TarekAziz01/turbo-troop-server"
+                    target="_blank"
+                  >
+                    Server side
+                  </a>
                 </div>
               </div>
             </div>
