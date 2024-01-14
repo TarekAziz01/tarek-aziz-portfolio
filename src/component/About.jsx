@@ -22,7 +22,7 @@ const About = () => {
             <h3 className="text-white font-primary font-semibold text-[26px] mb-6 leading-[46px]">
               I am a Front-end Developer with one years of experience.
             </h3>
-            <p className="text-white text-lg lg:text-xl mb-6">
+            <p className="text-white font-primary text-lg lg:text-xl mb-6">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
               magnam voluptate laudantium officia corporis vero aperiam quidem
               natus, similique adipisci.
