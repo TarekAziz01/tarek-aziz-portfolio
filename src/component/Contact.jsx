@@ -38,7 +38,7 @@ const Contact = () => {
                 placeholder="Your message"
               ></textarea>
               <button className="btn h-[48px] px-6 text-lg rounded-full font-primary text-white">
-                Send Message
+                Send a Message
               </button>
             </form>
           </div>
