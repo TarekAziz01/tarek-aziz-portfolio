@@ -25,7 +25,7 @@ const About = () => {
             <p className="text-white font-primary text-lg lg:text-xl mb-6">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
               magnam voluptate laudantium officia corporis vero aperiam quidem
-              natus, similique adipisci.
+              natus, similique.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
